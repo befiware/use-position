@@ -17,6 +17,8 @@ export const usePosition = (watch = false, settings = defaultSettings) => {
       accuracy: coords.accuracy,
       speed: coords.speed,
       heading: coords.heading,
+      altitude: coords.altitude,
+      altitudeAccuracy: coords.altitudeAccuracy,
       timestamp,
     });
   };
